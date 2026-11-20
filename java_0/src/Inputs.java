@@ -19,8 +19,10 @@ public class Inputs {
 
 
     //how to take float as an input
-    float marks = input.nextFloat();
-    System.out.println(marks);
+    // float marks = input.nextFloat();
+    // System.out.println(marks);
+
+    
 
 
 
