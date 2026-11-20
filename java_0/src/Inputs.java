@@ -14,9 +14,13 @@ public class Inputs {
 
 
     //String input
-    String name = input.nextLine();
-    System.out.println(name);
+    // String name = input.nextLine();
+    // System.out.println(name);
 
+
+    //how to take float as an input
+    float marks = input.nextFloat();
+    System.out.println(marks);
 
 
 
