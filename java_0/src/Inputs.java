@@ -1,12 +1,24 @@
 import java.util.Scanner;
 
 public class Inputs {
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int rollo = input.nextInt();
+    //     System.out.println("please enter your roll no: ");
+    //     int rollno = input.nextInt();
+    //     System.out.println("your roll no is: " + rollno);
+    
+    // int a = 234_000_000; 
+    // // this is how we write millions
+    // //  the underscore will ignore by the compiler
+    // System.out.println(a);
 
-        System.out.println("your roll no is " + rollo);
+
+    //String input
+    String name = input.nextLine();
+    System.out.println(name);
+
+
+
+
     }
-
 }
