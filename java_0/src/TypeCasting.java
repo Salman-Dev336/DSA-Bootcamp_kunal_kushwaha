@@ -29,11 +29,16 @@ public class TypeCasting {
         // b= a * 2;   // not possible give an error because a is an integer 
         // need casting 
 
-        int number = 'a';
-        System.out.println(number); // will print the asci value of a 
+        // int number = 'a';
+        // System.out.println(number); // will print the asci value of a 
         // which is 97 
         // and for capital A 
         //it is 65
+
+
+        //java follows unicode 
+        System.out.println("你好");
+
 
 
 
