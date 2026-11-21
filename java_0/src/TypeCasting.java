@@ -37,7 +37,31 @@ public class TypeCasting {
 
 
         //java follows unicode 
-        System.out.println("你好");
+        // System.out.println("你好");
+
+        // System.out.println(3*6.90987);
+        //automaticaly will promote into float 
+
+
+        byte b = 45;
+        char c = 'a';
+        short s = 1024;
+        int i =  50000;
+        float f = 6.8746f;
+        double d = 0.123455;
+
+        double result = (f * b) + (i / c) - (d * s);
+
+        System.out.println((f * b)+ " " + (i / c) + " "+ (d * s));
+        // individual results 
+        // all the smaller operants is converting to bigger operants e.g the byte is promoted to 
+        // float similarly the character is promoted to integer and short is to double 
+
+
+        System.out.println(result); // overall result
+
+
+    
 
 
 
