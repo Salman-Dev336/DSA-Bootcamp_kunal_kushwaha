@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class CountNums {
     public static void main(String[] args) {
+
+        // this programm is for to find the 
+        // number of 5s in the given number by user 
         
         Scanner input = new Scanner(System.in);
         int num = input.nextInt();
